@@ -1,0 +1,2 @@
+# 로컬 설정 (Slack Webhook URL 등 민감 정보 포함)
+.claude/settings.local.json
