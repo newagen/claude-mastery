@@ -6,7 +6,9 @@
       "bash",
       "WebFetch",
       "WebSearch",
-      "mcp_playwright"
+      "mcp_playwright",
+      "mcp_sequential-thinking",
+      "mcp_shadcn"
     ]
   },
   "statusLine": {

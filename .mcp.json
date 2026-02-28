@@ -9,10 +9,23 @@
     },
     "playwright": {
       "type": "stdio",
-      "command": "npx",
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@playwright/mcp@latest"],
+      "env": {}
+    },
+    "sequential-thinking": {
+      "command": "cmd",
       "args": [
-        "@playwright/mcp@latest"
-      ],
+        "/c",
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "shadcn": {
+      "type": "stdio",
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "shadcn@latest", "mcp"],
       "env": {}
     }
   }
