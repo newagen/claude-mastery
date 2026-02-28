@@ -1,7 +1,13 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
   "permissions": {
-    "allow": ["mcp_context7"]
+    "allow": [
+      "mcp_context7",
+      "bash",
+      "WebFetch",
+      "WebSearch",
+      "mcp_playwright"
+    ]
   },
   "statusLine": {
     "type": "command",
